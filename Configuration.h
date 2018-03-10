@@ -232,7 +232,7 @@
  *
  */
 
-/**
+/**dream source
  * Configuration.h
  *
  * Basic settings such as:
@@ -538,7 +538,7 @@
 #define DUMMY_THERMISTOR_999_VALUE 100
 
 // Use temp sensor 1 as a redundant sensor with sensor 0. If the readings
-// from the two sensors differ too much the print will be aborted.
+// from the two sensors differ too much the print will be aborted.dream source
 //#define TEMP_SENSOR_1_AS_REDUNDANT
 #define MAX_REDUNDANT_TEMP_SENSOR_DIFF 10
 
@@ -973,7 +973,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER SENSOR_RIGHT - SENSOR_LEFT  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER SENSOR_BEHIND - SENSOR_FRONT // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.8   // Z offset: -below +above  [the nozzle]
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 13500
