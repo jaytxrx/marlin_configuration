@@ -232,7 +232,7 @@
  *
  */
 
-/**dream source
+/**
  * Configuration.h
  *
  * Basic settings such as:
@@ -538,7 +538,7 @@
 #define DUMMY_THERMISTOR_999_VALUE 100
 
 // Use temp sensor 1 as a redundant sensor with sensor 0. If the readings
-// from the two sensors differ too much the print will be aborted.dream source
+// from the two sensors differ too much the print will be aborted.
 //#define TEMP_SENSOR_1_AS_REDUNDANT
 #define MAX_REDUNDANT_TEMP_SENSOR_DIFF 10
 
